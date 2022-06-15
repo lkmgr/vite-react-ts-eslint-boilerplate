@@ -1,17 +1,20 @@
 # ⚛️ React, TypeScript, Vite Boilerplate
 
-This is a boilerplate to be used as a starter for using React with TypeScript, Vite, linting and formatting.
+This is a boilerplate to be used as a starter for using React with
+[TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/),
+linting and formatting.
 
 ## 🎨 Linting and formatting
 
 **ESLint** is used with:
-- `typescript-eslint`
-- `eslint-plugin-import`
-- `eslint-plugin-react`
-- `eslint-plugin-prettier`
-- `eslint-config-prettier`
+- [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint)
+- [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react)
+- [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import) with TypeScript resolver
+- [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier)
+- [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier)
 
-As the Prettier *plugin* is used, only ESLint needs to be installed for both linting and formatting.
+As the Prettier *plugin* is used, it is run as an ESLint rule for both linting
+and formatting.
 
 ## 🔧 Development Server
 
